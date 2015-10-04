@@ -1,0 +1,25 @@
+{
+  "name": "trzmaxim/twig-inline-styles",
+  "description": "Twig extension for represent the inline styles as an associative array",
+  "keywords": ["twig", "css", "inline", "style"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maxim Gerasimov",
+      "email": "treizeger@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "twig/twig": "~1.10"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8.0"
+  },
+  "autoload": {
+    "psr-4": { "TrzMaxim\\TwigInlineStyles\\": "src" }
+  },
+  "autoload-dev": {
+    "psr-4": { "TrzMaxim\\TwigInlineStyles\\Tests\\": "tests" }
+  }
+}
